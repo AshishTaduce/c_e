@@ -1,0 +1,18 @@
+{
+  "name": "To Do App Chrome Extension",
+  "version": "1.0",
+  "description": "To do chrome extension",
+  "permissions": ["activeTab","storage"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "img/a16.png",
+      "48": "img/a48.png",
+      "128": "img/a128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "manifest_version": 3
+}
